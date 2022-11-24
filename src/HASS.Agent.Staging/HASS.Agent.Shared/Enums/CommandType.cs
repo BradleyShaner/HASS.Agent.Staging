@@ -101,6 +101,10 @@ namespace HASS.Agent.Shared.Enums
         [EnumMember(Value = "SleepCommand")]
         SleepCommand,
 
+        [LocalizedDescription("CommandType_StartScreensaver", typeof(Languages))]
+        [EnumMember(Value = "StartScreensaver")]
+        StartScreensaver,
+
         [LocalizedDescription("CommandType_WebViewCommand", typeof(Languages))]
         [EnumMember(Value = "WebViewCommand")]
         WebViewCommand

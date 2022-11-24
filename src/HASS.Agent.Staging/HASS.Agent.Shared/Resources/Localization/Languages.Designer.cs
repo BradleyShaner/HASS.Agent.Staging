@@ -593,6 +593,15 @@ namespace HASS.Agent.Shared.Resources.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Puts all monitors in sleep (low power) mode..
+        /// </summary>
+        internal static string CommandsManager_StartScreensaverCommandDescription {
+            get {
+                return ResourceManager.GetString("CommandsManager_StartScreensaverCommandDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Shows a window with the provided URL.
         ///
         ///This differs from the &apos;LaunchUrl&apos; command in that it doesn&apos;t load a full-fledged browser, just the provided URL in its own window.
@@ -1290,6 +1299,15 @@ namespace HASS.Agent.Shared.Resources.Localization {
         internal static string CommandType_SleepCommand {
             get {
                 return ResourceManager.GetString("CommandType_SleepCommand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to StartScreensaver.
+        /// </summary>
+        internal static string CommandType_StartScreensaverCommand {
+            get {
+                return ResourceManager.GetString("CommandType_StartScreensaverCommand", resourceCulture);
             }
         }
         

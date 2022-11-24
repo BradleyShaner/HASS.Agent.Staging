@@ -405,6 +405,14 @@ namespace HASS.Agent.Commands
 
             // =================================
 
+            commandInfoCard = new CommandInfoCard(CommandType.StartScreensaver,
+                Languages.CommandsManager_StartScreensaverCommandDescription,
+                true, false, false);
+
+            CommandInfoCards.Add(commandInfoCard.CommandType, commandInfoCard);
+
+            // =================================
+
             commandInfoCard = new CommandInfoCard(CommandType.MonitorWakeCommand,
                 Languages.CommandsManager_MonitorWakeCommandDescription,
                 true, false, false);

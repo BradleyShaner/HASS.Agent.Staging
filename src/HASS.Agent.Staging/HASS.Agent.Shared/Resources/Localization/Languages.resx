@@ -2806,8 +2806,11 @@ Make sure no other instance of HASS.Agent is running and the port is available a
 	<data name="Main_NotifyIcon_MouseClick_MessageBox1" xml:space="preserve">
 		<value>No URL has been set! Please configure the webview through Configuration -&gt; Tray Icon.</value>
 	</data>
-	<data name="CommandType_MonitorSleepCommand" xml:space="preserve">
+  <data name="CommandType_MonitorSleepCommand" xml:space="preserve">
 		<value>MonitorSleep</value>
+	</data>
+  <data name="CommandType_StartScreensaverCommand" xml:space="preserve">
+		<value>StartScreensaver</value>
 	</data>
 	<data name="CommandType_MonitorWakeCommand" xml:space="preserve">
 		<value>MonitorWake</value>
@@ -2880,7 +2883,10 @@ Are you sure you want this?</value>
 	<data name="SensorType_WindowStateSensor" xml:space="preserve">
 		<value>WindowState</value>
 	</data>
-	<data name="CommandsManager_MonitorSleepCommandDescription" xml:space="preserve">
+  <data name="CommandsManager_MonitorSleepCommandDescription" xml:space="preserve">
+		<value>Puts all monitors in sleep (low power) mode.</value>
+	</data>
+  <data name="CommandsManager_StartScreensaverCommandDescription" xml:space="preserve">
 		<value>Puts all monitors in sleep (low power) mode.</value>
 	</data>
 	<data name="CommandsManager_MonitorWakeCommandDescription" xml:space="preserve">

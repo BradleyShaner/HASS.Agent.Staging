@@ -494,7 +494,18 @@ namespace HASS.Agent.Resources.Localization {
                 return ResourceManager.GetString("CommandsManager_MonitorSleepCommandDescription", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to Puts all monitors in sleep (low power) mode..
+        /// </summary>
+        internal static string CommandsManager_StartScreensaverCommandDescription
+        {
+            get
+            {
+                return ResourceManager.GetString("CommandsManager_StartScreensaverCommandDescription", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Tries to wake up all monitors by simulating a &apos;arrow up&apos; keypress..
         /// </summary>
@@ -1209,6 +1220,15 @@ namespace HASS.Agent.Resources.Localization {
         internal static string CommandType_MonitorSleepCommand {
             get {
                 return ResourceManager.GetString("CommandType_MonitorSleepCommand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MonitorSleep.
+        /// </summary>
+        internal static string CommandType_StartScreensaverCommand {
+            get {
+                return "StartScreensaver";
             }
         }
         

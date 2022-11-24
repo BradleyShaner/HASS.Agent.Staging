@@ -60,6 +60,9 @@ namespace HASS.Agent.Shared.Functions
         [DllImport("USER32.DLL")]
         internal static extern bool IsWindowVisible(IntPtr hWnd);
 
+        [DllImport("user32.dll", EntryPoint = "GetDesktopWindow")]
+        internal static extern IntPtr GetDesktopWindow();
+
         [DllImport("USER32.DLL")]
         internal static extern IntPtr GetShellWindow();
 
