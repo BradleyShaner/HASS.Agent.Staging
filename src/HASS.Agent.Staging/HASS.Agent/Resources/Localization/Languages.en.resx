@@ -2922,6 +2922,9 @@ Note: You disabled sanitation, so make sure your device name is accepted by Home
   <data name="CommandType_MonitorSleepCommand" xml:space="preserve">
     <value>MonitorSleep</value>
   </data>
+  <data name="CommandType_StartScreensaverCommand" xml:space="preserve">
+    <value>StartScreensaver</value>
+  </data>
   <data name="CommandType_MonitorWakeCommand" xml:space="preserve">
     <value>MonitorWake</value>
   </data>
@@ -2972,6 +2975,9 @@ Note: You disabled sanitation, so make sure your device name is accepted by Home
   </data>
   <data name="CommandsManager_MonitorSleepCommandDescription" xml:space="preserve">
     <value>Puts all monitors in sleep (low power) mode.</value>
+  </data>
+  <data name="CommandsManager_StartScreensaverCommandDescription" xml:space="preserve">
+    <value>Start screensaver (using built-in Windows defined screensaver).</value>
   </data>
   <data name="CommandsManager_MonitorWakeCommandDescription" xml:space="preserve">
     <value>Tries to wake up all monitors by simulating a &apos;arrow up&apos; keypress.</value>
